@@ -1,0 +1,27 @@
+h1 {
+    color:blue;
+    background-color: lightpink;
+}
+
+body {
+    background-color: lavender;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div {
+    background-color: lightsalmon;
+    border: purple 2px solid;
+}
+
+p {
+    color:aliceblue;
+}
+
+/* background-color */
+/* font-size */
+/* font-family */
+/* border */
+/* margin */
+/* padding */
+/* width */
+/* height */
