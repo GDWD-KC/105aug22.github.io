@@ -1,22 +1,35 @@
 h1 {
-    color:blue;
+    /* color:blue; */
     background-color: lightpink;
+    margin: 0;
 }
 
 body {
     background-color: lavender;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
 }
 
-div {
+#birds {
     background-color: lightsalmon;
     border: purple 2px solid;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    /* height: 500px; */
+    width: 300px;
 }
 
 p {
     color:aliceblue;
 }
 
+.purple-text {
+    color: purple;
+    font-style: italic;
+}
+
+/* color */
 /* background-color */
 /* font-size */
 /* font-family */
