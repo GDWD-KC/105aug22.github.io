@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+}
+header {
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+nav {
+    background-color: salmon;
+    padding: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav a {
+    color: white;
+}
+
+nav li {
+    display: inline;
+    margin: 5px;
+}
+
+.content {
+    border: 2px solid salmon;
+    padding: 20px;
+    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.3);
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+main {
+    background-color:aliceblue;
+    padding: 30px;
+}
+
+main h2 {
+    color: salmon;
+}
+
+hr {
+    border-color: black;
+}
+
+figure {
+    float: left;
+    margin-bottom: 100px;
+    width: 40%;
+}
+
+figure img {
+    width: 100%;
+}
+
+footer {
+    background-color: salmon;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
