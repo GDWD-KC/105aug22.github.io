@@ -1,5 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Titillium+Web:wght@400;600&display=swap');
-
-section {
-    background-color: lavender;
+input:valid {
+    border: solid green 2px;
 }
+
+input:invalid {
+    border: solid red 2px;
+}
+
+/* input[type="text"], input[type="submit"], input[type="number"] {
+    border: 2px black solid;
+} */
+
+
+/* 
+input[type="text"]:invalid {
+    border: solid red 2px;
+}
+
+input[type="text"]:valid {
+    border: solid green 2px;
+} */
+
+
