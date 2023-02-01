@@ -1,27 +1,4 @@
-input:required:invalid {
-    border: black solid 2px;
+.col {
+    background-color: lightblue;
+    border: 1px black solid;
 }
-
-input:valid {
-    border: solid green 2px;
-}
-
-input:invalid {
-    border: solid red 2px;
-}
-
-/* input[type="text"], input[type="submit"], input[type="number"] {
-    border: 2px black solid;
-} */
-
-
-/* 
-input[type="text"]:invalid {
-    border: solid red 2px;
-}
-
-input[type="text"]:valid {
-    border: solid green 2px;
-} */
-
-
