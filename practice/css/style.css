@@ -1,4 +1,8 @@
-.col {
-    background-color: lightblue;
-    border: 1px black solid;
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100vh;
 }
