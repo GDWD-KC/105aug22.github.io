@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.site-hero {
+    background-image: url("../assets/branding/field.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text h2 {
+    margin-top: 0;
+    font-size: 6em;
+    display: flex;
+}
+
+.hero-text h4 {
+    font-size: 2.5em;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-style: italic;
+    color: aliceblue;
+    width: 100%;
+    text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+}
+
+/* .hero-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 2px gray solid;
+} */
+
+#foxy-fox {
+    height: 20vh;
+}
