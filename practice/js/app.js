@@ -1,12 +1,13 @@
-// Console Log
-console.log("AYO")
+//Write a function to greet me
+//Function Declaration (load washing machine)
+// function greet() {
+//     alert("Hello!");
+// }
+//Calling Function (turn on washing machine)
+// greet();
 
-// Alert
-// alert("HEY")
+//Square A Number 
+function square(number) {
+    return number * number;
+}
 
-// document.getElementById("demo").style.color = "red";
-let demo = document.getElementById("demo");
-
-demo.innerHTML = "I changed!!! AHAAHAHA";
-
-demo.style.color = "red";
