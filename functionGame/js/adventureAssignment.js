@@ -17,6 +17,7 @@
 // or presses the 'a' or left arrow key
 function pressMoveLeftButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
+    moveLeft();
 
 }
 
@@ -24,6 +25,7 @@ function pressMoveLeftButton() {
 // or presses the 'd' or right arrow key
 function pressMoveRightButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
+    moveRight();
 
 }
 
