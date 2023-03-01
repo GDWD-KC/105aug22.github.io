@@ -1,15 +1,21 @@
-//Write a function to greet me
-//Function Declaration (load washing machine)
-function greet() {
-    alert("Hello!");
+function plusFive(num) {
+    return num + 5; //Fill in the blank
 }
-//Calling Function (turn on washing machine)
-greet();
 
-//Square A Number 
-function square(number) {
-    return number * number;
+// Increase Winning Number by 5
+function increaseLargerNumber(x, y) {
+    // Save variable for result
+    let larger;
+    if(x >= y) {
+        larger = x;
+    } else {
+        larger = y;
+    }// Return larger number plus five
+    return plusFive(larger);
 }
+
+console.log(increaseLargerNumber(35, 34));
+
 
 
 
