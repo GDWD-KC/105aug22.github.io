@@ -1,20 +1,19 @@
-function plusFive(num) {
-    return num + 5; //Fill in the blank
+// Make function to show current date
+// function displayDate() {
+//     // Save Empty Div from html inside a variable
+//     let demo = document.getElementById("demo");
+//     demo.innerHTML = Date();
+// }
+
+function changeColor(){
+    let demo = document.getElementById("demo");
+    demo.style.color = "red";
 }
 
-// Increase Winning Number by 5
-function increaseLargerNumber(x, y) {
-    // Save variable for result
-    let larger;
-    if(x >= y) {
-        larger = x;
-    } else {
-        larger = y;
-    }// Return larger number plus five
-    return plusFive(larger);
-}
+// Save button in variable
+// let btn = document.getElementById("btn");
 
-console.log(increaseLargerNumber(35, 34));
+// btn.addEventListener('click', displayDate);
 
 
 
