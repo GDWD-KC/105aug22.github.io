@@ -5,15 +5,23 @@
 //     demo.innerHTML = Date();
 // }
 
-function changeColor(){
-    let demo = document.getElementById("demo");
-    demo.style.color = "red";
-}
+// function changeColor(){
+//     let demo = document.getElementById("demo");
+//     demo.style.color = "red";
+// }
 
 // Save button in variable
 // let btn = document.getElementById("btn");
 
-// btn.addEventListener('click', displayDate);
+// btn.onclick = displayDate;
+
+function toggleClass() {
+    const demo = document.getElementById('demo');
+    demo.classList.toggle("blue-div");
+}
+
+
+
 
 
 
