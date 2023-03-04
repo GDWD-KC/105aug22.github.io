@@ -11,10 +11,26 @@ function openLightbox() {
 }
 
 // Image Variable
-let coffeeImage = document.getElementById("coffeeImage");
+// let coffeeImage = document.getElementById("coffeeImage");
+// let coffeeImage2 = document.getElementById("coffeeImage2");
+// let coffeeImage3 = document.getElementById("coffeeImage3");
+// let coffeeImage4 = document.getElementById("coffeeImage4");
+
+// Image Group
+let galleryImages = document.getElementsByClassName("galleryImage");
+
+//Create a loop to iterate through all images that run openLightbox when clicked
+
+for(let i = 0; i < galleryImages.length; i++) {
+    let galleryImage = galleryImages[i];
+    galleryImage.onclick = openLightbox;
+}
 
 // Image Click Event
-coffeeImage.onclick = openLightbox;
+// coffeeImage.onclick = openLightbox;
+// coffeeImage2.onclick = openLightbox;
+// coffeeImage3.onclick = openLightbox;
+// coffeeImage4.onclick = openLightbox;
 
 // Function to Close Lightbox
 function closeLightbox() {
