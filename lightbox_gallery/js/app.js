@@ -20,7 +20,6 @@ function openLightbox() {
 let galleryImages = document.getElementsByClassName("galleryImage");
 
 //Create a loop to iterate through all images that run openLightbox when clicked
-
 for(let i = 0; i < galleryImages.length; i++) {
     let galleryImage = galleryImages[i];
     galleryImage.onclick = openLightbox;
