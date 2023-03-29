@@ -1,0 +1,29 @@
+body, ul {
+    margin: 0;
+}
+
+
+ul li {
+    display: inline;
+}
+
+#nav1 {
+    position: sticky;
+    top: 0;
+    background-color: lightblue;
+}
+
+#nav2 {
+    background-color: lightgreen;
+    position: relative;
+    bottom: 0;
+}
+
+#nav3 {
+    background-color: pink;
+}
+
+div {
+    height: 1500px;
+    position: absolute;
+}

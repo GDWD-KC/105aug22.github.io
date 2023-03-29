@@ -12,12 +12,10 @@
     height: 50px;
     width: 50px;
 }
-/* 
-#item1 {
-    align-self:flex-start;
-} */
 
-#item6 {
+#item1 {
+    align-self:flex-end;
 }
+
 
 
