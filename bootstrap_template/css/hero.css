@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .site-hero {
-    background: linear-gradient(to bottom, rgba(255,0,0,0), rgb(0, 0, 0.3)), url("../assets/branding/wood_bkgrnd.jpg");
+    background: radial-gradient( rgba(255,0,0,0), rgb(0, 0, 0.3)), url("../assets/branding/wood_bkgrnd.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
